@@ -1,4 +1,8 @@
 <?php
+require_once 'animal.php';
+require_once 'cat.php';
+require_once 'dog.php';
+
 $dog1 = new Dog("Shadow");
 echo $dog1->name . " does " . $dog1->makeSound() . "\n";
 
